@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/liuxingyu521/esling-config/compare/v1.0.7...v1.1.0) (2023-11-12)
+
+
+### Features
+
+* update dependencies ([e919574](https://github.com/liuxingyu521/esling-config/commit/e9195742dda7c100b8c016d1aa247b91b3e3174c))
+
+
+
 ## [1.0.7](https://github.com/liuxingyu521/eslint-config/compare/v1.0.6...v1.0.7) (2022-11-13)
 
 
