@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint:fix": "eslint ./test --fix",
     "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
     "release:check": "pnpm lint:fix",
     "release:version": "bumpp package.json packages/*/package.json --execute=\"pnpm changelog\" --all",
@@ -16,9 +16,9 @@
   },
   "devDependencies": {
     "@liuxingyu521/eslint-config": "workspace:*",
-    "bumpp": "^8.2.1",
-    "conventional-changelog-cli": "^2.2.2",
-    "eslint": "^8.25.0",
-    "typescript": "^4.8.4"
+    "bumpp": "^9.2.0",
+    "conventional-changelog-cli": "^4.1.0",
+    "eslint": "^8.53.0",
+    "typescript": "^5.2.2"
   }
 }

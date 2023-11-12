@@ -15,9 +15,9 @@
     "@liuxingyu521/eslint-config-ts": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.25.0"
+    "eslint": "^8.53.0"
   },
   "peerDependencies": {
-    "eslint": "^8.25.0"
+    "eslint": "^8.53.0"
   }
 }
