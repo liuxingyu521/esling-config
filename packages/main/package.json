@@ -1,9 +1,15 @@
 {
   "name": "@liuxingyu521/eslint-config",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "the main eslint-config",
   "author": "liuxingyu521 <xuj_power@qq.com> (https://github.com/liuxingyu521)",
   "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
   "license": "MIT",
   "files": [
     "index.js"
@@ -12,12 +18,15 @@
     "eslint-config"
   ],
   "dependencies": {
-    "@liuxingyu521/eslint-config-ts": "workspace:*"
+    "@liuxingyu521/eslint-config-ts": "workspace:*",
+    "@liuxingyu521/eslint-config-base": "workspace:*",
+    "@liuxingyu521/eslint-config-stylistic": "workspace:*",
+    "@liuxingyu521/eslint-config-json": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.53.0"
+    "eslint": "^9.1.1"
   },
   "peerDependencies": {
-    "eslint": "^8.53.0"
+    "eslint": ">=9"
   }
 }

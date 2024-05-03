@@ -1,8 +1,9 @@
 {
   "name": "@liuxingyu521/eslint-config-monorepo",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "private": true,
   "author": "liuxingyu521 <xuj_power@qq.com> (https://github.com/liuxingyu521)",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
@@ -16,9 +17,9 @@
   },
   "devDependencies": {
     "@liuxingyu521/eslint-config": "workspace:*",
-    "bumpp": "^9.2.0",
+    "bumpp": "^9.4.1",
     "conventional-changelog-cli": "^4.1.0",
-    "eslint": "^8.53.0",
-    "typescript": "^5.2.2"
+    "eslint": "^9.1.1",
+    "typescript": "^5.4.5"
   }
 }

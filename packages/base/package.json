@@ -1,9 +1,10 @@
 {
   "name": "@liuxingyu521/eslint-config-base",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "the base eslint-config",
   "author": "liuxingyu521 <xuj_power@qq.com> (https://github.com/liuxingyu521)",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "files": [
     "index.js"
@@ -12,17 +13,18 @@
     "eslint-config"
   ],
   "dependencies": {
+    "@eslint/js": "^9.1.1",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-jsonc": "^2.10.0",
-    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsonc": "^2.15.1",
+    "eslint-plugin-n": "^17.4.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-yml": "^1.10.0"
+    "eslint-plugin-yml": "^1.14.0"
   },
   "devDependencies": {
-    "eslint": "^8.53.0"
+    "eslint": "^9.1.1"
   },
   "peerDependencies": {
-    "eslint": "^8.53.0"
+    "eslint": ">=9"
   }
 }

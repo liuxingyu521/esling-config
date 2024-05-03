@@ -1,23 +1,11 @@
-const base = require('@liuxingyu521/eslint-config-base')
+// @ts-check
+import tseslint from 'typescript-eslint'
 
-module.exports = {
-  extends: [
-    '@liuxingyu521/eslint-config-base',
-    'plugin:@typescript-eslint/recommended',
-  ],
-  plugins: ['@typescript-eslint'],
-  parser: '@typescript-eslint/parser',
-  overrides: [
-    ...base.overrides,
-    {
-      files: ['*.js'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
+export default [
+  ...tseslint.configs.recommended,
+  {
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
     },
-  ],
-  rules: {
-    '@typescript-eslint/no-unused-vars': 'off',
-    '@typescript-eslint/no-explicit-any': 'off',
   },
-}
+]

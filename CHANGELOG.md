@@ -1,3 +1,7 @@
+# [2.0.0](https://github.com/liuxingyu521/esling-config/compare/v1.1.0...v2.0.0) (2024-05-03)
+
+
+
 # [1.1.0](https://github.com/liuxingyu521/esling-config/compare/v1.0.7...v1.1.0) (2023-11-12)
 
 
