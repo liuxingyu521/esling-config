@@ -1,0 +1,25 @@
+{
+  "name": "@liuxingyu521/eslint-config-stylistic",
+  "version": "2.0.0",
+  "description": "the stylistic eslint-config",
+  "author": "liuxingyu521 <xuj_power@qq.com> (https://github.com/liuxingyu521)",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config",
+    "eslint-config-stylistic"
+  ],
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^1.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=9"
+  }
+}

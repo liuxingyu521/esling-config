@@ -1,0 +1,25 @@
+{
+  "name": "@liuxingyu521/eslint-config-json",
+  "version": "2.0.0",
+  "description": "my json eslint-config",
+  "author": "liuxingyu521 <xuj_power@qq.com> (https://github.com/liuxingyu521)",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config",
+    "eslint-config-json"
+  ],
+  "dependencies": {
+    "eslint-plugin-jsonc": "^2.15.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=9"
+  }
+}
